@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+     rel="stylesheet">
+     <link rel="stylesheet" href="css-files/header.css">
+     <link rel="stylesheet" href="css-files/general.css">
+     <link rel="stylesheet" href="css-files/posts.css">
+     <link rel="stylesheet" href="css-files/shorts.css">
+     <link rel="stylesheet" href="css-files/sidebar.css">
+     <link rel="stylesheet" href="css-files/video.css">
+     <link rel="stylesheet" href="css-files/suggestion-buttons.css">
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="left-section">
+        <div class="hamburger-icon-container">
+          <img class="hamburger-icon" src="header-icons/hamburger.svg">
+        </div>
+        <a class="link" href="https://www.youtube.com/" target="_blank">
+          <div class="youtube-icon-container">
+            <img class="youtube-icon" src="header-icons/yt-icon.svg">
+            <div class="pk">PK</div>
+            <div class="tooltip">YouTube Home</div>
+          </div>
+        </a>
+      </div>
+      <div class="middle-section">
+        <input class="search-box" type="text" placeholder="Search">
+        <button class=search-button>
+          <img class="search-icon" src="header-icons/search-icon.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <div class="voice-search-icon-container">
+          <img class="voice-search-icon" src="header-icons/voice-search.svg">
+          <div class="tooltip">Search with your voice</div>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="create-icon-container">
+          <img class="create-icon" src="header-icons/create-icon.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="header-icons/bell-icon.svg">
+          <div class="notifications-count">9+</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="profile-icon" src="header-icons/hung sik.jpeg">
+      </div>
+    </header>
+
+    <nav class="side-bar">
+        <div class="main-container">
+          <div class="icon-container">
+            <img class="icon-img" src="sidebar-icons/home-icons/home.svg">
+            <div class="icon-title">Home</div>
+            <div class="tooltip">Home</div>
+          </div>
+          <a class="link" target="_blank" href="https://www.youtube.com/shorts/gEBoaACaE3Q">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/home-icons/shorts-icon.svg">
+              <div class="icon-title">Shorts</div>
+              <div class="tooltip">Shorts</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/feed/subscriptions">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/home-icons/subscription-icon.svg">
+              <div class="icon-title">Subscriptions</div>
+              <div class="tooltip">Subscriptions</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://music.youtube.com/">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/home-icons/youtube-music.svg">
+              <div class="icon-title">YouTube Music</div>
+              <div class="tooltip">YouTube Music</div>
+            </div>
+          </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/channel/UC">
+            <div class="you-container">
+              <div class="you-icon-container">
+                <div class="you-icon-title">You</div>
+                <img class="you-icon-img" src="sidebar-icons/you-icons/greater-sign.svg">
+                <div class="tooltip">You</div>
+              </div>
+          </a>  
+          <a class="link" target="_blank" href="https://www.youtube.com/feed/you">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/you-icons/your-channel-icon.svg">
+              <div class="icon-title">Your channel</div>
+              <div class="tooltip">Your channel</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/feed/history">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/you-icons/history-icon.svg">
+              <div class="icon-title">History</div>
+              <div class="tooltip">History</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/feed/playlists">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/you-icons/playlist-icon.svg">
+              <div class="icon-title">Playlists</div>
+              <div class="tooltip">Playlists</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://studio.youtube.com/">
+          <div class="icon-container">
+            <img class="icon-img" src="sidebar-icons/you-icons/your-videos-icon.svg">
+            <div class="icon-title">Your Videos</div>
+            <div class="tooltip">Your Videos</div>
+          </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/playlist?list=WL">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/you-icons/your-videos-icon.svg">
+              <div class="icon-title">Watch Later</div>
+              <div class="tooltip">Watch later</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/playlist?list=LL">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/you-icons/liked-videos-icon.svg">
+              <div class="icon-title">Liked videos</div>
+              <div class="tooltip">Liked videos</div>
+            </div>
+          </a>
+        </div>
+        <div class="subscriptions-container">
+          <div class="subscriptions-icon-container">
+            <div class="subscriptions-icon-title">Subscriptions</div>
+          </div>
+          <a class="link" target="_blank" href="https://www.youtube.com/@lifedoodlesshort">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/subscriptions-imgs/c-1.jpg">
+              <div class="icon-title">Life doodles short</div>
+              <div class="tooltip">Life doodles short</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/@SuperSimpledev">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/subscriptions-imgs/c2.jpg">
+              <div class="icon-title">SuperSimple dev</div>
+              <div class="tooltip">SuperSimple dev</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/@Tiffintech">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/subscriptions-imgs/c3_profile.jpg">
+              <div class="icon-title">Tiff in tech</div>
+              <div class="tooltip">Tiff in tech</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/ISPR">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/subscriptions-imgs/c-4.jpg">
+              <div class="icon-title">ISPR Official</div>
+              <div class="tooltip">ISPR Official</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/@ShahveerJay">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/subscriptions-imgs/c-5.jpg">
+              <div class="icon-title">Shahveer jafry</div>
+              <div class="tooltip">Shahveer jafry</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/feed/channels">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/subscriptions-imgs/all-subscriptions.svg">
+              <div class="icon-title">All subscriptions</div>
+              <div class="tooltip">All subscriptions</div>
+            </div>
+          </a>
+        </div>
+        <div class="explore-container">
+          <div class="explore-icon-container">
+            <div class="explore-icon-title">Explore</div>
+          </div>
+          <a class="link" target="_blank" href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/explore-icons/trending-icon.svg">
+              <div class="icon-title">Trending</div>
+              <div class="tooltip">Trendings</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/explore-icons/music-icon.svg">
+              <div class="icon-title">Music</div>
+              <div class="tooltip">Music</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/gaming">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/explore-icons/gaming-icon.svg">
+              <div class="icon-title">Gaming</div>
+              <div class="tooltip">Gaming</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/news">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/explore-icons/news-icon.svg">
+              <div class="icon-title">News</div>
+              <div class="tooltip">News</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/sports">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/explore-icons/sports-icon.svg">
+              <div class="icon-title">Sports</div>
+              <div class="tooltip">Sports</div>
+            </div>
+          </a>
+        </div>
+        <div class="youtube-products-container">
+          <div class="youtube-products-icon-container">
+            <div class="youtube-products-icon-title">More from YouTube</div>
+          </div>
+          <a class="link" target="_blank" href="https://www.youtube.com/premium">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/youtube-products-icons/premium-icon.svg">
+              <div class="icon-title">YouTube Premium</div>
+              <div class="tooltip">YouTube Premium</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://studio.youtube.com/">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/youtube-products-icons/studio-icon.svg">
+              <div class="icon-title">YouTube Studio</div>
+              <div class="tooltip">YouTube Studio</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://music.youtube.com/">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/youtube-products-icons/music-icon.svg">
+              <div class="icon-title">YouTube Music</div>
+              <div class="tooltip">YouTube Music</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtubekids.com/?source=youtube_web">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/youtube-products-icons/kids-icon.svg">
+              <div class="icon-title">YouTube Kids</div>
+              <div class="tooltip">YouTube Kids</div>
+            </div>
+          </a>
+        </div>
+        <div class="more-container">
+          <a class="link" href="https://www.youtube.com/account" target="_blank">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/more-icons/settings-icon.svg">
+              <div class="icon-title">Settings</div>
+              <div class="tooltip">Settings</div>
+            </div>
+          </a>
+          <a class="link" target="_blank" href="https://www.youtube.com/reporthistory">
+            <div class="icon-container">
+              <img class="icon-img" src="sidebar-icons/more-icons/report-icon.svg">
+              <div class="icon-title">Report history</div>
+              <div class="tooltip">Report history</div>
+            </div>
+          </a>
+          <div class="icon-container">
+            <img class="icon-img" src="sidebar-icons/more-icons/help-icon.svg">
+            <div class="icon-title">Help</div>
+            <div class="tooltip">Help</div>
+          </div>
+          <div class="icon-container">
+            <img class="icon-img" src="sidebar-icons/more-icons/feedback-icon.svg">
+            <div class="icon-title">Send Feedback</div>
+            <div class="tooltip">Send Feedback</div>
+          </div>
+        </div>
+        <div class="more-info">
+          <div class="info-part-one">
+            <a class="info-text" href="https://about.youtube/" target="_blank">About</a>
+            <a class="info-text" href="https://blog.youtube/" target="_blank">Press</a>
+            <a class="info-text" href="https://www.youtube.com/howyoutubeworks/policies/copyright/" target="_blank">Copyright</a>
+            <a class="info-text" href="https://www.youtube.com/t/contact_us/" target="_blank">Contact us</a>
+            <a class="info-text" href="https://www.youtube.com/creators/" target="_blank">Creator</a>
+            <a class="info-text" href="https://www.youtube.com/ads/" target="_blank">Advertise</a>
+            <a class="info-text" href="https://developers.google.com/youtube" target="_blank">Developers</a>
+          </div>
+          <div class="info-part-two">
+            <a class="info-text" href="https://www.youtube.com/t/terms" target="_blank">Terms</a>
+            <a class="info-text" href="https://policies.google.com/privacy?hl=en-GB" target="_blank">Privacy</a>
+            <a class="info-text" href="https://www.youtube.com/howyoutubeworks/policies/community-guidelines/" target="_blank">Policy & Safety</a>
+            <a class="info-text" href="https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen" target="_blank">How YouTube works</a>
+          </div>
+          <div class="info-part-three">
+            <a class="info-text" href="https://www.youtube.com/new" target="_blank">Test new features</a>
+          </div>
+          <div class="logo">© 2024 Google LLC</div>
+        </div>    
+    </nav>
+
+    <div class="suggestion-buttons">
+      <div class="suggestions-container">
+        <div class="suggestions" style="background-color: rgb(36, 36, 36); color: white;">All</div>
+        <div class="tooltip">All</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">Music</div>
+        <div class="tooltip">Music</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">BTS</div>
+        <div class="tooltip">BTS</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">Korean Drama</div>
+        <div class="tooltip">Korean Drama</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">Pakistani Drama</div>
+        <div class="tooltip">Pakistani Drama</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">Gaming</div>
+        <div class="tooltip">Gaming</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">Tech</div>
+        <div class="tooltip">Tech</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">Courses</div>
+        <div class="tooltip">Curses</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">HipHop</div>
+        <div class="tooltip">HipHop</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">Cartoons</div>
+        <div class="tooltip">Cartoons</div>
+      </div>
+      <div class="suggestions-container">
+        <div class="suggestions">Animated Short videos</div>
+        <div class="tooltip">Animated Short videos</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-container">
+        <a class="link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=21809s" target="_blank">
+          <div class="thumbnail-container">
+            <img class="thumbnail" src="video-data/thumbnails/t-1.jpg">
+            <div class="video-time">6:31:23</div>
+          </div>
+        </a>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@SuperSimpleDev">
+            <img class="channel-img" src="video-data/channel-pictures/c-1.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=21809s" target="_blank">
+              <div class="video-title">HTML & CSS Full Course - Beginner to Pro</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@SuperSimpleDev">
+              <div class="channel-name">SuperSimpleDev</div>
+            </a>
+            <div class="video-stats">10M views &#183; 2 years ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <a class="link" target="_blank" href="https://www.youtube.com/watch?v=kfoDmjE83KM">
+          <div class="thumbnail-container">
+            <img class="thumbnail" src="video-data/thumbnails/hq720.jpg">
+            <div class="video-time">10:01</div>
+          </div>
+        </a>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@koreatrendy_">
+            <img class="channel-img" src="video-data/channel-pictures/c-2_profile.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=kfoDmjE83KM">
+              <div class="video-title">BTS V Quiz | How Well Do You REALLY Know Taehyung?</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@koreatrendy_">
+              <div class="channel-name">KoreaTrendy</div>  
+            </a>
+            <div class="video-stats">30K views &#183; 2 weeks ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/watch?v=pmO_rDXRFBY">
+            <img class="thumbnail" src="video-data/thumbnails/t-3.jpg">
+          </a>
+          <div class="video-time">1:59</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@learnwith-Kay">
+            <img class="channel-img" src="video-data/channel-pictures/c-3_profile.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=pmO_rDXRFBY">
+              <div class="video-title">How to Always Win in 20 Questions !</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@learnwith-Kay">
+              <div class="channel-name">Learn with Kay</div>
+            </a>
+            <div class="video-stats">12 views &#183; 1 day ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/watch?v=i2s3Xk46hP0">
+            <img class="thumbnail" src="video-data/thumbnails/t-4.jpg">
+          </a>
+          <div class="video-time">10:03</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@goalzone2534">
+            <img class="channel-img" src="video-data/channel-pictures/c-4_profile.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=i2s3Xk46hP0">
+              <div class="video-title">There Will Never Be Another Ronaldo</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@goalzone2534">
+              <div class="channel-name">Goal Zone</div>
+            </a>
+            <div class="video-stats">62K views &#183; 1 month ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/watch?v=eZyJ2U_17p8">
+            <img class="thumbnail" src="video-data/thumbnails/t-5.jpg">
+          </a>
+          <div class="video-time">2:47</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@manoanimationstudios">
+            <img class="channel-img" src="video-data/channel-pictures/c-5_profile.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=eZyJ2U_17p8">
+              <div class="video-title">THE GLASSWORKER | Official Urdu Trailer</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@manoanimationstudios">
+              <div class="channel-name">SMano Animation Studios</div>
+            </a>
+            <div class="video-stats">332K views &#183; 1 month ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/watch?v=T3JxbfuxmXk">
+          <img class="thumbnail" src="video-data/thumbnails/t-6.jpg">
+          </a>
+          <div class="video-time">1:31</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@netflixkcontent">
+            <img class="channel-img" src="video-data/channel-pictures/c-6.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=T3JxbfuxmXk">
+              <div class="video-title">The Frog | Official Teaser | Netflix [ENG SUB]</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@netflixkcontent">
+              <div class="channel-name">Netflix K-Content</div>
+            </a>
+            <div class="video-stats">639K views &#183; 7 days ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/watch?v=g85WsxE1gAU">
+            <img class="thumbnail" src="video-data/thumbnails/t-7.jpg">
+          </a>
+          <div class="video-time">9:30</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@TEDx">
+            <img class="channel-img" src="video-data/channel-pictures/c-7.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=g85WsxE1gAU">
+              <div class="video-title">How Long It Takes To Change Your Life? | Nwal Hadaki | TEDxSafirSchool</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@TEDx">
+              <div class="channel-name">TEDx Talks</div>
+            </a>
+            <div class="video-stats">6.6M views &#183; 2 years ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+    </div>
+
+    <div class="youtube-posts">
+      <div class="posts-title">Latest YouTube Posts</div>
+      <div class="posts-grid">
+        <a class="link" target="_blank" href="https://www.youtube.com/post/UgkxK3pTnLBmWDL1biujT320nHAhJtrfxkrH">
+          <div class="post-container">
+            <div class="post-header">
+              <img class="post-channel" src="posts-data/channel-img/channels4_profile.jpg">
+              <div class="post-channel-name">DailyDostOfInternetCats &#183; 2 days ago</div>
+            </div>
+            <div class="post-details">
+              <div class="post-text">Say Something nice to him!</div>
+              <img class="post-img" src="posts-data/post-img/unnamed.webp">
+            </div>
+            <div class="post-buttons">
+              <img class="like-button" src="posts-data/post-buttons/like.svg">
+              <div class="likes-count">37K</div>
+              <img class="dislike-button" src="posts-data/post-buttons/dislike.svg">
+              <img class="share-button" src="posts-data/post-buttons/share.svg">
+              <img class="comment-button" src="posts-data/post-buttons/comment.svg">
+              <div class="comments-count">1.4K</div>
+              <img class="dotted-button" src="video-data/dotted-icon.svg">
+            </div>
+          </div>
+        </a>
+        <a class="link" target="_blank" href="https://www.youtube.com/post/UgkxM0QYy0EZTK313p-bQ1vVyMGbb6xNMele">
+          <div class="post-container">
+            <div class="post-header">
+              <img class="post-channel" src="posts-data/channel-img/channels4_profile (2).jpg">
+              <div class="post-channel-name">Life Football &#183; 1 day ago</div>
+            </div>
+            <div class="post-details">
+              <div class="post-text">Which Club Has The Best History Of Al Time?</div>
+            </div>
+            <div class="votes-count">133K votes</div>
+            <button class="vote-button">Vote now</button>
+            <div class="post-buttons">
+              <img class="like-button" src="posts-data/post-buttons/like.svg">
+              <div class="likes-count">37K</div>
+              <img class="dislike-button" src="posts-data/post-buttons/dislike.svg">
+              <img class="share-button" src="posts-data/post-buttons/share.svg">
+              <img class="comment-button" src="posts-data/post-buttons/comment.svg">
+              <div class="comments-count">1.4K</div>
+              <img class="dotted-button" src="video-data/dotted-icon.svg">
+            </div>
+          </div>
+        </a>
+        <a class="link" target="_blank" href="https://www.youtube.com/post/UgkxEt_YvehU4Lm-cT3AYcXAsHvVHRnlB4DP">
+          <div class="post-container">
+            <div class="post-header">
+              <img class="post-channel" src="posts-data/channel-img/channels4_profile (3).jpg">
+              <div class="post-channel-name">TheGuyThatMakesEdits &#183; 12 hours ago</div>
+            </div>
+            <div class="post-details">
+              <div class="post-text">what do ya'll think? :D</div>
+            </div>
+            <div class="votes-count">1.5K votes</div>
+            <button class="vote-button">Vote now</button>
+            <div class="post-buttons">
+              <img class="like-button" src="posts-data/post-buttons/like.svg">
+              <div class="likes-count">76</div>
+              <img class="dislike-button" src="posts-data/post-buttons/dislike.svg">
+              <img class="share-button" src="posts-data/post-buttons/share.svg">
+              <img class="comment-button" src="posts-data/post-buttons/comment.svg">
+              <div class="comments-count">6</div>
+              <img class="dotted-button" src="video-data/dotted-icon.svg">
+            </div>
+          </div>
+        </a>
+      </div>
+      </div>
+    </div>
+
+    <div class="youtube-shorts">
+      <div class="shorts-header">
+        <img class="shorts-icon" src="shorts-data/shorts.svg">
+        <div class="shorts-title">Shorts</div>
+      </div>
+      <div class="shorts-grid">
+        <a class="link" target="_blank" href="https://www.youtube.com/shorts/Y2GD2sA9dCY">
+          <div class="shorts-container">
+            <img class="shorts-cover" src="shorts-data/thumbnails/oardefault.jpg">
+            <div class="shorts-info">
+              <div class="shorts-detail">
+                <div class="shorts-caption">Meatloaf 😋</div>
+                <img class="dotted-button" src="video-data/dotted-icon.svg">
+              </div>
+              <div class="shorts-stats">10M views</div>
+            </div>
+          </div>
+        </a> 
+        <a class="link" target="_blank" href="https://www.youtube.com/shorts/PrEPMACGdgA">
+          <div class="shorts-container">
+            <img class="shorts-cover" src="shorts-data/thumbnails/oar2.jpg">
+            <div class="shorts-info">
+              <div class="shorts-detail">
+                <div class="shorts-caption">Footballer who has killed people 😨😢</div>
+                <img class="dotted-button" src="video-data/dotted-icon.svg">
+              </div>
+              <div class="shorts-stats">10M views</div>
+            </div>
+          </div>
+        </a>    
+        <a class="link" target="_blank" href="https://www.youtube.com/shorts/-5y6LhhZz28">
+          <div class="shorts-container">
+            <img class="shorts-cover" src="shorts-data/thumbnails/oardefault (1).jpg">
+            <div class="shorts-info">
+              <div class="shorts-detail">
+                <div class="shorts-caption">Deadliest Class Photo</div>
+                <img class="dotted-button" src="video-data/dotted-icon.svg">
+              </div>
+              <div class="shorts-stats">8.2M views</div>
+            </div>
+          </div>
+        </a>     
+        <a class="link" target="_blank" href="https://www.youtube.com/shorts/5YeAgJqvGuw">
+          <div class="shorts-container">
+            <img class="shorts-cover" src="shorts-data/thumbnails/oar2 (1).jpg">
+            <div class="shorts-info">
+              <div class="shorts-detail">
+                <div class="shorts-caption">they grown up 🥺❣️// shorts// pls subscribe</div>
+                <img class="dotted-button" src="video-data/dotted-icon.svg">
+              </div>
+              <div class="shorts-stats">10M views</div>
+            </div>
+          </div>
+        </a>
+        <a class="link" target="_blank" href="https://www.youtube.com/shorts/mHNvMH88qOE">
+          <div class="shorts-container">
+            <img class="shorts-cover" src="shorts-data/thumbnails/oar2 (2).jpg">
+            <div class="shorts-info">
+              <div class="shorts-detail">
+                <div class="shorts-caption">Bro doesn’t even exist</div>
+                <img class="dotted-button" src="video-data/dotted-icon.svg">
+              </div>
+              <div class="shorts-stats">1.5M views</div>
+            </div>
+          </div>
+        </a>  
+      </div>     
+    </div>
+
+    <div class="video-grid">
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/watch?v=yNuEJdorQJI">
+            <img class="thumbnail" src="video-data/thumbnails/cooking.jpg">
+          </a>
+          <div class="video-time">12:09</div>
+        </div>
+        
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@ShahveerJay">
+            <img class="channel-img" src="video-data/channel-pictures/shah.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=yNuEJdorQJI">
+              <div class="video-title">Couple's Cooking Challenge | ft. Mama Jafry</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@ShahveerJay">
+              <div class="channel-name">Shahveer Jaffry</div>
+            </a>
+            <div class="video-stats">11M views &#183; 11 days ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/watch?v=vvfZBptkN3w">
+            <img class="thumbnail" src="video-data/thumbnails/cat.jpg">
+          </a>
+          <div class="video-time">7:17</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" href="https://www.youtube.com/@chachacha3207" target="_blank">
+            <img class="channel-img" src="video-data/channel-pictures/kitten-c.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=vvfZBptkN3w">
+              <div class="video-title">Kitten enjoys first bath!</div>
+            </a>
+            <a class="link" href="https://www.youtube.com/@chachacha3207" target="_blank">
+              <div class="channel-name">Chachacha</div>
+            </a>
+            <div class="video-stats">3.2M views &#183; 3 years ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" href="https://www.youtube.com/watch?v=Qwm6BSGrOq0" target="_blank">
+            <img class="thumbnail" src="video-data/thumbnails/irady.jpg">
+          </a>
+          <div class="video-time">2:13</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@AbdulHannanmusic">
+            <img class="channel-img" src="video-data/channel-pictures/hannan_profile.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" href="https://www.youtube.com/watch?v=Qwm6BSGrOq0" target="_blank">
+              <div class="video-title">Abdul Hannan & Rovalio - Iraaday (Official Music Video)</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@AbdulHannanmusic">
+              <div class="channel-name">Abdul Hannan</div>
+            </a>
+            <div class="video-stats">73 views &#183; 2 years ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" href="https://www.youtube.com/watch?v=FSc-xXXulWA" target="_blank">
+            <img class="thumbnail" src="video-data/thumbnails/zaat.jpg">
+          </a>
+          <div class="video-time">5:56</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@HUMMusic">
+            <img class="channel-img" src="video-data/channel-pictures/hum.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" href="https://www.youtube.com/watch?v=FSc-xXXulWA" target="_blank">
+              <div class="video-title">Sheher-e-Zaat | OST by Abida Parveen | HUM Music</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@HUMMusic">
+              <div class="channel-name">HUM Music</div>
+            </a>
+            <div class="video-stats">1.9M views &#183; 3 years ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/watch?v=S_gD8I5-4mg">
+            <img class="thumbnail" src="video-data/thumbnails/alif.jpg">
+          </a>
+          <div class="video-time">4:16</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" target="_blank" href="https://www.youtube.com/@HarPalGeoOfficial">
+            <img class="channel-img" src="video-data/channel-pictures/geo.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=S_gD8I5-4mg">
+              <div class="video-title">Alif | Full OST | Hamza Ali Abbasi | Ahsan Khan | Har Pal Geo</div>
+            </a>
+            <a class="link" target="_blank" href="https://www.youtube.com/@HarPalGeoOfficial">
+              <div class="channel-name">HAR PAL GEO</div>
+            </a>
+            <div class="video-stats">12M views &#183; 4 years ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+      <div class="video-container">
+        <div class="thumbnail-container">
+          <a class="link" href="https://www.youtube.com/watch?v=EerdGm-ehJQ" target="_blank">
+            <img class="thumbnail" src="video-data/thumbnails/dev.jpg">
+          </a>
+          <div class="video-time">22:15:56</div>
+        </div>
+        <div class="video-info-container">
+          <a class="link" href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+            <img class="channel-img" src="video-data/channel-pictures/c-1.jpg">
+          </a>
+          <div class="video-details">
+            <a class="link" href="https://www.youtube.com/watch?v=EerdGm-ehJQ" target="_blank">
+              <div class="video-title">JavaScript Tutorial Full Course - Beginner to Pro (2024)</div>
+            </a>
+            <a class="link" href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+              <div class="channel-name">SuperSimpleDev</div>
+            </a>
+            <div class="video-stats">1.1M views &#183; 2 months ago</div>
+          </div>
+          <img class="dotted-icon" src="video-data/dotted-icon.svg">
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,181 @@
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: white;
+  top: 52px;
+  bottom: 0;
+  left: 0;
+  width: 215px;
+  overflow: hidden;
+  z-index: 1;
+
+}
+
+.side-bar:hover
+{
+  overflow: auto;
+  scrollbar-width:thin;
+  transition: overflow 0.4s;
+}
+.main-container , 
+.you-container ,
+.subscriptions-container ,
+.explore-container ,
+.youtube-products-container ,
+.more-container
+{
+  padding-bottom: 22px;
+  border-bottom:1px solid rgb(228, 228, 228) ;
+  margin-left: 10px;
+}
+
+.you-icon-container ,
+.subscriptions-icon-container ,
+.explore-icon-container ,
+.youtube-products-icon-container
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  align-items: center;
+  padding: 6.5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: -10px;
+  margin-left: 2px;
+}
+
+.you-icon-title ,
+.subscriptions-icon-title ,
+.youtube-products-icon-title ,
+.explore-icon-title
+{
+  font-family: 'Roboto';
+  font-size: 14.5px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  margin-left: 2px;
+  padding: 6.5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+}
+
+.icon-container:hover ,
+.you-icon-container:hover
+{
+  background-color: rgb(244, 244, 244);
+}
+.icon-container:active ,
+.you-icon-container:active 
+{
+  background-color: rgb(222, 222, 222);
+}
+
+.icon-img
+{
+  height: 22.5px;
+  width: 21.5px;
+  border-radius: 10px;
+}
+.you-icon-img
+{
+  margin-left: 7px;
+  height: 14px;
+  width: 14px;
+}
+.icon-title
+{
+  margin-left: 22px;
+  font-size: 12.5px;
+  font-family: 'Roboto';
+}
+.info-text
+{
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+.info-part-one ,
+.info-part-two ,
+.info-part-three
+{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 158px;
+  line-height: 15px;
+}
+.info-part-two
+{
+  width: 165px;
+}
+.info-part-three
+{
+  margin-top: 2px;
+}
+.logo
+{
+  margin-top: 15px;
+  color: rgb(154, 154, 154);
+  font-size: 11px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.icon-container .tooltip
+{
+  color: rgb(217, 217, 217);
+  background-color: rgba(20, 20, 20, 0.9);
+  padding: 4px 6px;
+  font-size: 11px;
+  position: absolute;
+  bottom: -10px;
+  left:95px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.icon-container:hover .tooltip 
+{
+  opacity: 1;
+}
+.you-icon-container
+{
+  position: relative;
+}
+.you-icon-container .tooltip
+{
+  color: rgb(217, 217, 217);
+  background-color: rgba(20, 20, 20, 0.9);
+  padding: 4px 6px;
+  font-size: 11px;
+  position: absolute;
+  bottom: -5px;
+  left: 55px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.you-icon-container:hover .tooltip
+{
+  opacity: 1;
+}
+.link
+{
+  text-decoration: none;
+  color: black;
+}

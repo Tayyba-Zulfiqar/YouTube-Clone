@@ -1,0 +1,130 @@
+.youtube-posts
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  font-family: 'Roboto';
+}
+.posts-title
+{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.posts-grid
+{
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.post-container
+{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  padding: 10px 15px;
+  width: 270px;
+}
+.post-header
+{
+  display: flex;
+  align-items: center;
+}
+.post-channel
+{
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+}
+.post-channel-name
+{
+  font-size: 11px;
+  margin-left: 10px;
+  color: rgb(96, 96, 96);
+}
+.post-details
+{
+  display: flex;
+  margin-top: 15px;
+}
+.post-text
+{
+  font-size: 12px;
+  margin-right: 20px;
+}
+.post-img
+{
+
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.post-buttons
+{
+  display: flex;
+  margin-top: 6px;
+  align-items: center;
+}
+.like-button ,
+.dislike-button 
+{
+  height: 33px;
+  width: 33px;
+}
+.share-button 
+{
+height: 20px;
+width: 20px;
+}
+.comment-button 
+{
+  height: 15px;
+  width: 15px;
+}
+.likes-count ,
+.comments-count
+{
+  font-size: 11px;
+}
+.share-button
+{
+  margin-left: 70px;
+  margin-right: 20px;
+}
+.comments-count
+{
+  margin-left: 5px;
+  font-weight: 500;
+}
+.dotted-button
+{
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+.votes-count
+{
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+  margin-top: 15px;
+}
+.vote-button
+{
+  background-color: white;
+  color: rgb(6, 95, 212);
+  padding: 5px;
+  border: 1px solid lightgray;
+  font-weight: 500;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+
+}

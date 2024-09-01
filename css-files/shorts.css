@@ -1,0 +1,78 @@
+.youtube-shorts
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  font-family: 'Roboto';
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 50px;
+}
+.shorts-grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 8px;
+}
+.shorts-header
+{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.shorts-title
+{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+
+}
+.shorts-icon
+{
+  height: 23px;
+  width: 23px;
+  margin-right: 5px;
+}
+.shorts-container
+{
+  display: flex;
+  flex-direction: column;
+  width: 195px;
+  cursor: pointer;
+}
+.shorts-cover
+{
+  height: 345px;
+  width: 190px;
+  border-radius: 8px;
+  object-fit:cover;
+}
+.shorts-info
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+.shorts-detail
+{
+  display: flex;
+  justify-content: space-between;
+}
+.shorts-caption
+{
+  font-weight: 500;
+  font-size: 14px;
+}
+.dotted-button
+{
+  margin-right: 5px;
+}
+.shorts-stats
+{
+  font-size: 12px;
+  margin-top: 5px;
+  color: rgb(96, 96, 96);
+
+}

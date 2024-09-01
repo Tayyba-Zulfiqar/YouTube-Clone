@@ -1,0 +1,53 @@
+.suggestion-buttons
+{
+  display: flex;
+  flex-direction: row;
+  height: 46px;
+  align-items: center;
+  position: fixed;
+  top: 52.5px;
+  background-color: white;
+  width: 100%;
+  padding-left: 15px;
+  z-index: 1;
+}
+.suggestions
+{
+  padding: 6px 10px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  background-color:  rgb(238, 238, 238);
+  border: none;
+  border-radius: 6px;
+  white-space: nowrap;
+  cursor: pointer;
+} 
+.suggestions-container
+{
+  position: relative;
+  margin-left: 10px;
+  border-radius: 6px;
+}
+.suggestions:hover
+{
+  background-color:  rgb(228, 228, 228);
+}
+.suggestions-container .tooltip
+{
+  color: rgb(217, 217, 217);
+  background-color: rgba(20, 20, 20, 0.9);
+  padding: 4px 6px;
+  font-size: 12px;
+  position: absolute;
+  top: 30px;
+  left:43px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.suggestions-container:hover .tooltip
+{
+  opacity: 1;
+}
