@@ -3,13 +3,12 @@
 Heyy! 🌸 This is a **front-end clone** of **YouTube's July 2024 layout**, built with just **HTML** & **CSS** 🍓🧚‍♀️
 It’s fully responsive and totally inspired by the real thing — perfect for practicing layout and styling! 🎨🌈
 
-- 
+
 ### 🛠️ Tech Stack :
 
 - HTML  
 - CSS
 
--
 
 ### How to Run It? 🌷
 
